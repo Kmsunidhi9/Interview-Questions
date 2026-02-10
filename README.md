@@ -60,4 +60,55 @@ All the basics and advance questions of Frontend including HTML, CSS, JS and REA
 
       NOTE: Arrow functions + this combination  
     
-   
+
+
+   ## HTML AND CSS: 
+
+   #### Semantic Elements : 
+       - Semantic element : 
+       <header> -> important top content
+       <footer> -> supporting inforation
+       <section> -> used to group related content together that forms a logical section on page.
+       <article> -> main independent content 
+       <nav> -> navigation link 
+       <main> -> tells users where main content starts
+       - they improve **SEO, accessibility, and code readability.**
+       - SEO ( Search Engine Optimization) 
+       - Semantic elements help search engines understand the structure and importance of content on a page. 
+       - It make website more usable for screen reader and assistive technologies
+       - code self - explanatory and easier to understand for developers. 
+
+  #### Session Storage : 
+        - Stores data temporarily in the browser **for a single tab/ session.**
+        - Data is stored as **key value pairs**
+        - Data is available **only in the current browser tab**
+        - Data is cleared **automatically when the tab is closed**
+        - Maximum size is around **5-10 MB**
+        - Example: sessionStorage.setItem("user", "me");
+                  sessionStorage.getItem("user");
+                  sessionStorage.removeItem("user");
+
+  #### Comparison Local vs Session Storage: 
+                                      **localStorage**                **sessionStorage**
+        - Lifetime :                    Permanent                          Temporary
+        - Scope :                  All Tabs, Shared btw windows     current tab, per-tab isolation
+        - Size limit:                    5-10 MB                            5-10 MB
+        - Data format :                 String(key value pairs)          String(key value pairs)
+        - Page Refresh :               DAta Stays                        DAta Stays
+        - accessible via JS:           yes                                  yes
+        - Performance:               block operation, snyc              block operation, snyc
+
+  ####  Inline vs Inline Block vs Block : 
+
+          - Inline: No width/ height ( <span>)
+          -  Block : Takes full width ( <div> ) 
+          -  Inline- block : Width/ height allowed but stays inline 
+
+  ####  Positioning : 
+
+          - position: relative -> element stay in normal document flow. moves top/ right/ bottom/ left. spac is still reserved for the element. ex: small shifts, container setup. 
+          - position: absolute -> Element is removed from normal document flow. positioned relative to the nearest positioned ancestor. if no ancestor means positioned relative to the viewport.  ex: tooltips, dropdowns, icons/badges inside cards. 
+          
+                  
+       
+       
